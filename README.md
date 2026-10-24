@@ -1,6 +1,10 @@
-# Projects by Technology
+[![Contribution activity](assets/contributions-2026.png)](https://github.com/bhargavm-iiits#year-list-container)
 
-Explore my work in virtual reality, augmented reality, Unity simulations, machine learning, generative AI, and full stack development.
+<h1 align="center">Projects by Technology</h1>
+
+<h3 align="center">Immersive experiences · AI systems · Full stack applications</h3>
+
+<p align="center">Explore my work in virtual reality, augmented reality, Unity simulations, machine learning, and generative AI.</p>
 
 Choose a technology to browse its projects below, or open its filter in the Repositories tab.
 
