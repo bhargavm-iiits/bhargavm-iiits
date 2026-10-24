@@ -1,0 +1,371 @@
+{
+  "projects": [
+    {
+      "name": "VR_Demo_Cymax",
+      "url": "https://github.com/bhargavm-iiits/VR_Demo_Cymax",
+      "category": "vr-xr",
+      "summary": "VR cinema and 360° video",
+      "stack": [
+        "React",
+        "Three.js",
+        "React Three Fiber/XR",
+        "FastAPI"
+      ]
+    },
+    {
+      "name": "Teaching-and-Learning",
+      "url": "https://github.com/bhargavm-iiits/Teaching-and-Learning",
+      "category": "vr-xr",
+      "summary": "Physics learning",
+      "stack": [
+        "Unity",
+        "C#",
+        "XR Interaction Toolkit",
+        "OpenXR"
+      ]
+    },
+    {
+      "name": "Teaching-and-Learning_V1",
+      "url": "https://github.com/bhargavm-iiits/Teaching-and-Learning_V1",
+      "category": "vr-xr",
+      "summary": "VR kinematics suite",
+      "stack": [
+        "Unity",
+        "C#",
+        "URP",
+        "XR",
+        "OpenXR"
+      ]
+    },
+    {
+      "name": "Interactive-Speed",
+      "url": "https://github.com/bhargavm-iiits/Interactive-Speed",
+      "category": "vr-xr",
+      "summary": "Game-based speed learning with XR dependencies",
+      "stack": [
+        "Unity",
+        "C#",
+        "OpenXR"
+      ]
+    },
+    {
+      "name": "Motion-in-Straight-Line",
+      "url": "https://github.com/bhargavm-iiits/Motion-in-Straight-Line",
+      "category": "vr-xr",
+      "summary": "Interactive motion learning",
+      "stack": [
+        "Unity",
+        "C#",
+        "XR Interaction Toolkit",
+        "OpenXR"
+      ]
+    },
+    {
+      "name": "Industry-AIR_CRAFT",
+      "url": "https://github.com/bhargavm-iiits/Industry-AIR_CRAFT",
+      "category": "vr-xr",
+      "summary": "VR engine assembly training",
+      "stack": [
+        "Unity",
+        "C#",
+        "VRTK",
+        "SteamVR/OpenVR"
+      ]
+    },
+    {
+      "name": "Industry-Air-Craft-V1",
+      "url": "https://github.com/bhargavm-iiits/Industry-Air-Craft-V1",
+      "category": "vr-xr",
+      "summary": "Aviation scene and XR prototype",
+      "stack": [
+        "Unity",
+        "C#",
+        "URP",
+        "XR Interaction Toolkit"
+      ]
+    },
+    {
+      "name": "Interactive-Chemistry",
+      "url": "https://github.com/bhargavm-iiits/Interactive-Chemistry",
+      "category": "vr-xr",
+      "summary": "VR crystallography and XRD laboratory",
+      "stack": [
+        "Unity",
+        "C#",
+        "Meta XR SDK",
+        "OpenXR"
+      ]
+    },
+    {
+      "name": "VR-Plant-Treatment",
+      "url": "https://github.com/bhargavm-iiits/VR-Plant-Treatment",
+      "category": "vr-xr",
+      "summary": "Plant-disease education and treatment visualization",
+      "stack": [
+        "Unity",
+        "C#",
+        "URP",
+        "OpenXR"
+      ]
+    },
+    {
+      "name": "AR-Navigation",
+      "url": "https://github.com/bhargavm-iiits/AR-Navigation",
+      "category": "ar",
+      "summary": "Alipiri–Tirumala outdoor navigation",
+      "stack": [
+        "Unity",
+        "C#",
+        "AR Foundation",
+        "ARCore",
+        "GPS"
+      ]
+    },
+    {
+      "name": "Navigation-AR-pages",
+      "url": "https://github.com/bhargavm-iiits/Navigation-AR-pages",
+      "category": "ar",
+      "summary": "AR navigation scenes",
+      "stack": [
+        "Unity",
+        "AR Foundation",
+        "ARCore",
+        "URP"
+      ]
+    },
+    {
+      "name": "AR-Pages-Tirumala",
+      "url": "https://github.com/bhargavm-iiits/AR-Pages-Tirumala",
+      "category": "ar",
+      "summary": "Pilgrimage navigation and landmarks",
+      "stack": [
+        "Unity",
+        "C#",
+        "AR Foundation",
+        "ARCore Extensions"
+      ]
+    },
+    {
+      "name": "AR_Tirumala",
+      "url": "https://github.com/bhargavm-iiits/AR_Tirumala",
+      "category": "ar",
+      "summary": "AR navigation placeholder",
+      "stack": [
+        "repository currently empty"
+      ]
+    },
+    {
+      "name": "Unity-Linear-Motion-",
+      "url": "https://github.com/bhargavm-iiits/Unity-Linear-Motion-",
+      "category": "unity",
+      "summary": "Linear motion, acceleration, speed, and velocity",
+      "stack": [
+        "Unity assets",
+        "C#",
+        "animation"
+      ]
+    },
+    {
+      "name": "Velocity---Interactive",
+      "url": "https://github.com/bhargavm-iiits/Velocity---Interactive",
+      "category": "unity",
+      "summary": "Interactive game with checkpoints, compass, and collectibles",
+      "stack": [
+        "Unity",
+        "C#",
+        "terrain"
+      ]
+    },
+    {
+      "name": "AI-Plant-Disease-Detection",
+      "url": "https://github.com/bhargavm-iiits/AI-Plant-Disease-Detection",
+      "category": "ml",
+      "summary": "CNN plant-disease detection",
+      "stack": [
+        "TensorFlow/Keras",
+        "OpenCV",
+        "Flask"
+      ]
+    },
+    {
+      "name": "Hate-Speech-Detection",
+      "url": "https://github.com/bhargavm-iiits/Hate-Speech-Detection",
+      "category": "ml",
+      "summary": "Multimodal content classification",
+      "stack": [
+        "PyTorch",
+        "Transformers",
+        "MiniLM",
+        "CLIP",
+        "LoRA/PEFT"
+      ]
+    },
+    {
+      "name": "OpthaMiss_V1",
+      "url": "https://github.com/bhargavm-iiits/OpthaMiss_V1",
+      "category": "ml",
+      "summary": "AI-assisted eye screening",
+      "stack": [
+        "PyTorch",
+        "timm",
+        "OpenCV",
+        "FastAPI",
+        "React"
+      ]
+    },
+    {
+      "name": "Jarvis",
+      "url": "https://github.com/bhargavm-iiits/Jarvis",
+      "category": "genai",
+      "summary": "AI assistant prototype",
+      "stack": [
+        "Python",
+        "LiveKit Agents",
+        "OpenAI"
+      ]
+    },
+    {
+      "name": "Privacy-Preserving-RAG",
+      "url": "https://github.com/bhargavm-iiits/Privacy-Preserving-RAG",
+      "category": "genai",
+      "summary": "Privacy-focused retrieval experiments",
+      "stack": [
+        "LangChain",
+        "LangGraph",
+        "ChromaDB",
+        "Presidio",
+        "MLflow"
+      ]
+    },
+    {
+      "name": "Vox-Align",
+      "url": "https://github.com/bhargavm-iiits/Vox-Align",
+      "category": "genai",
+      "summary": "Emotion-aware voice assistant",
+      "stack": [
+        "PyTorch",
+        "BERT",
+        "Whisper",
+        "Gemini",
+        "ChromaDB"
+      ]
+    },
+    {
+      "name": "evidra-ai",
+      "url": "https://github.com/bhargavm-iiits/evidra-ai",
+      "category": "genai",
+      "summary": "ClaimBridge document-review prototype",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Anthropic",
+        "BM25",
+        "PyMuPDF"
+      ]
+    },
+    {
+      "name": "Fixproof",
+      "url": "https://github.com/bhargavm-iiits/Fixproof",
+      "category": "genai",
+      "summary": "AI code repair with verification",
+      "stack": [
+        "Gemini",
+        "BM25",
+        "Docker",
+        "FastAPI",
+        "React"
+      ]
+    },
+    {
+      "name": "Sticker_Me",
+      "url": "https://github.com/bhargavm-iiits/Sticker_Me",
+      "category": "genai",
+      "summary": "Personalized sticker generation",
+      "stack": [
+        "FLUX.2 Klein",
+        "FastAPI",
+        "React",
+        "Pillow",
+        "rembg"
+      ]
+    },
+    {
+      "name": "Scientific_Claim_Checker",
+      "url": "https://github.com/bhargavm-iiits/Scientific_Claim_Checker",
+      "category": "genai",
+      "summary": "Evidence-based claim verification",
+      "stack": [
+        "LangGraph",
+        "Ollama/Qwen",
+        "hybrid retrieval",
+        "PyTorch",
+        "Streamlit"
+      ]
+    },
+    {
+      "name": "Sheduler",
+      "url": "https://github.com/bhargavm-iiits/Sheduler",
+      "category": "fullstack",
+      "summary": "Cadence planning dashboard and Android companion",
+      "stack": [
+        "React",
+        "TypeScript",
+        "Vinext/Vite",
+        "Express",
+        "Capacitor"
+      ]
+    },
+    {
+      "name": "Excel-to-Visualization-App-",
+      "url": "https://github.com/bhargavm-iiits/Excel-to-Visualization-App-",
+      "category": "fullstack",
+      "summary": "Spreadsheet-to-API compiler and 3D dependency explorer",
+      "stack": [
+        "FastAPI",
+        "React",
+        "Three.js",
+        "SQLAlchemy",
+        "Gemini"
+      ]
+    },
+    {
+      "name": "Sri-Balaji-Bamboo-Works",
+      "url": "https://github.com/bhargavm-iiits/Sri-Balaji-Bamboo-Works",
+      "category": "fullstack",
+      "summary": "Bilingual storefront and order management",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "encrypted storage"
+      ]
+    },
+    {
+      "name": "E-Portfolio",
+      "url": "https://github.com/bhargavm-iiits/E-Portfolio",
+      "category": "portfolio",
+      "summary": "Game-inspired portfolio",
+      "stack": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Three.js",
+        "React Three Fiber",
+        "GSAP"
+      ]
+    },
+    {
+      "name": "ML_E-Portfolio",
+      "url": "https://github.com/bhargavm-iiits/ML_E-Portfolio",
+      "category": "portfolio",
+      "summary": "Engineering portfolio",
+      "stack": [
+        "JavaScript",
+        "Three.js",
+        "GSAP",
+        "Lenis"
+      ]
+    }
+  ]
+}

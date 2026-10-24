@@ -1,0 +1,366 @@
+{
+  "owner": "bhargavm-iiits",
+  "commit_email": "bhargav.m23@iiits.in",
+  "exclude_repositories": [
+    "bhargavm-iiits"
+  ],
+  "categories": [
+    {
+      "id": "vr-xr",
+      "title": "Virtual Reality / XR",
+      "icon": "🥽",
+      "topic": "virtual-reality"
+    },
+    {
+      "id": "ar",
+      "title": "Augmented Reality",
+      "icon": "📍",
+      "topic": "augmented-reality"
+    },
+    {
+      "id": "unity",
+      "title": "Unity Games / Simulations",
+      "icon": "🎮",
+      "topic": "unity-simulation"
+    },
+    {
+      "id": "ml",
+      "title": "Machine Learning / Deep Learning",
+      "icon": "🧠",
+      "topic": "machine-learning"
+    },
+    {
+      "id": "genai",
+      "title": "Generative AI / LLMs / RAG",
+      "icon": "✨",
+      "topic": "generative-ai"
+    },
+    {
+      "id": "fullstack",
+      "title": "Full Stack Applications / Tools",
+      "icon": "🌐",
+      "topic": "full-stack"
+    },
+    {
+      "id": "portfolio",
+      "title": "Frontend / 3D Portfolios",
+      "icon": "🎨",
+      "topic": "portfolio"
+    },
+    {
+      "id": "other",
+      "title": "Other Projects",
+      "icon": "📦",
+      "topic": "other-projects"
+    }
+  ],
+  "overrides": {
+    "VR_Demo_Cymax": {
+      "category": "vr-xr",
+      "summary": "VR cinema and 360° video",
+      "stack": [
+        "React",
+        "Three.js",
+        "React Three Fiber/XR",
+        "FastAPI"
+      ]
+    },
+    "Teaching-and-Learning": {
+      "category": "vr-xr",
+      "summary": "Physics learning",
+      "stack": [
+        "Unity",
+        "C#",
+        "XR Interaction Toolkit",
+        "OpenXR"
+      ]
+    },
+    "Teaching-and-Learning_V1": {
+      "category": "vr-xr",
+      "summary": "VR kinematics suite",
+      "stack": [
+        "Unity",
+        "C#",
+        "URP",
+        "XR",
+        "OpenXR"
+      ]
+    },
+    "Interactive-Speed": {
+      "category": "vr-xr",
+      "summary": "Game-based speed learning with XR dependencies",
+      "stack": [
+        "Unity",
+        "C#",
+        "OpenXR"
+      ]
+    },
+    "Motion-in-Straight-Line": {
+      "category": "vr-xr",
+      "summary": "Interactive motion learning",
+      "stack": [
+        "Unity",
+        "C#",
+        "XR Interaction Toolkit",
+        "OpenXR"
+      ]
+    },
+    "Industry-AIR_CRAFT": {
+      "category": "vr-xr",
+      "summary": "VR engine assembly training",
+      "stack": [
+        "Unity",
+        "C#",
+        "VRTK",
+        "SteamVR/OpenVR"
+      ]
+    },
+    "Industry-Air-Craft-V1": {
+      "category": "vr-xr",
+      "summary": "Aviation scene and XR prototype",
+      "stack": [
+        "Unity",
+        "C#",
+        "URP",
+        "XR Interaction Toolkit"
+      ]
+    },
+    "Interactive-Chemistry": {
+      "category": "vr-xr",
+      "summary": "VR crystallography and XRD laboratory",
+      "stack": [
+        "Unity",
+        "C#",
+        "Meta XR SDK",
+        "OpenXR"
+      ]
+    },
+    "VR-Plant-Treatment": {
+      "category": "vr-xr",
+      "summary": "Plant-disease education and treatment visualization",
+      "stack": [
+        "Unity",
+        "C#",
+        "URP",
+        "OpenXR"
+      ]
+    },
+    "AR-Navigation": {
+      "category": "ar",
+      "summary": "Alipiri–Tirumala outdoor navigation",
+      "stack": [
+        "Unity",
+        "C#",
+        "AR Foundation",
+        "ARCore",
+        "GPS"
+      ]
+    },
+    "Navigation-AR-pages": {
+      "category": "ar",
+      "summary": "AR navigation scenes",
+      "stack": [
+        "Unity",
+        "AR Foundation",
+        "ARCore",
+        "URP"
+      ]
+    },
+    "AR-Pages-Tirumala": {
+      "category": "ar",
+      "summary": "Pilgrimage navigation and landmarks",
+      "stack": [
+        "Unity",
+        "C#",
+        "AR Foundation",
+        "ARCore Extensions"
+      ]
+    },
+    "AR_Tirumala": {
+      "category": "ar",
+      "summary": "AR navigation placeholder",
+      "stack": [
+        "repository currently empty"
+      ]
+    },
+    "Unity-Linear-Motion-": {
+      "category": "unity",
+      "summary": "Linear motion, acceleration, speed, and velocity",
+      "stack": [
+        "Unity assets",
+        "C#",
+        "animation"
+      ]
+    },
+    "Velocity---Interactive": {
+      "category": "unity",
+      "summary": "Interactive game with checkpoints, compass, and collectibles",
+      "stack": [
+        "Unity",
+        "C#",
+        "terrain"
+      ]
+    },
+    "AI-Plant-Disease-Detection": {
+      "category": "ml",
+      "summary": "CNN plant-disease detection",
+      "stack": [
+        "TensorFlow/Keras",
+        "OpenCV",
+        "Flask"
+      ]
+    },
+    "Hate-Speech-Detection": {
+      "category": "ml",
+      "summary": "Multimodal content classification",
+      "stack": [
+        "PyTorch",
+        "Transformers",
+        "MiniLM",
+        "CLIP",
+        "LoRA/PEFT"
+      ]
+    },
+    "OpthaMiss_V1": {
+      "category": "ml",
+      "summary": "AI-assisted eye screening",
+      "stack": [
+        "PyTorch",
+        "timm",
+        "OpenCV",
+        "FastAPI",
+        "React"
+      ]
+    },
+    "Jarvis": {
+      "category": "genai",
+      "summary": "AI assistant prototype",
+      "stack": [
+        "Python",
+        "LiveKit Agents",
+        "OpenAI"
+      ]
+    },
+    "Privacy-Preserving-RAG": {
+      "category": "genai",
+      "summary": "Privacy-focused retrieval experiments",
+      "stack": [
+        "LangChain",
+        "LangGraph",
+        "ChromaDB",
+        "Presidio",
+        "MLflow"
+      ]
+    },
+    "Vox-Align": {
+      "category": "genai",
+      "summary": "Emotion-aware voice assistant",
+      "stack": [
+        "PyTorch",
+        "BERT",
+        "Whisper",
+        "Gemini",
+        "ChromaDB"
+      ]
+    },
+    "evidra-ai": {
+      "category": "genai",
+      "summary": "ClaimBridge document-review prototype",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Anthropic",
+        "BM25",
+        "PyMuPDF"
+      ]
+    },
+    "Fixproof": {
+      "category": "genai",
+      "summary": "AI code repair with verification",
+      "stack": [
+        "Gemini",
+        "BM25",
+        "Docker",
+        "FastAPI",
+        "React"
+      ]
+    },
+    "Sticker_Me": {
+      "category": "genai",
+      "summary": "Personalized sticker generation",
+      "stack": [
+        "FLUX.2 Klein",
+        "FastAPI",
+        "React",
+        "Pillow",
+        "rembg"
+      ]
+    },
+    "Scientific_Claim_Checker": {
+      "category": "genai",
+      "summary": "Evidence-based claim verification",
+      "stack": [
+        "LangGraph",
+        "Ollama/Qwen",
+        "hybrid retrieval",
+        "PyTorch",
+        "Streamlit"
+      ]
+    },
+    "Sheduler": {
+      "category": "fullstack",
+      "summary": "Cadence planning dashboard and Android companion",
+      "stack": [
+        "React",
+        "TypeScript",
+        "Vinext/Vite",
+        "Express",
+        "Capacitor"
+      ]
+    },
+    "Excel-to-Visualization-App-": {
+      "category": "fullstack",
+      "summary": "Spreadsheet-to-API compiler and 3D dependency explorer",
+      "stack": [
+        "FastAPI",
+        "React",
+        "Three.js",
+        "SQLAlchemy",
+        "Gemini"
+      ]
+    },
+    "Sri-Balaji-Bamboo-Works": {
+      "category": "fullstack",
+      "summary": "Bilingual storefront and order management",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "encrypted storage"
+      ]
+    },
+    "E-Portfolio": {
+      "category": "portfolio",
+      "summary": "Game-inspired portfolio",
+      "stack": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Three.js",
+        "React Three Fiber",
+        "GSAP"
+      ]
+    },
+    "ML_E-Portfolio": {
+      "category": "portfolio",
+      "summary": "Engineering portfolio",
+      "stack": [
+        "JavaScript",
+        "Three.js",
+        "GSAP",
+        "Lenis"
+      ]
+    }
+  }
+}
