@@ -1,0 +1,49 @@
+name: Update technology directory
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'profile.json'
+      - 'scripts/**'
+      - 'tests/**'
+      - '.github/workflows/update-profile.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: public-profile-directory
+  cancel-in-progress: false
+
+jobs:
+  synchronize:
+    name: Classify public projects and refresh profile
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Test classifier and renderer
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Classify repositories, preserve topics, and render directory
+        env:
+          PROJECTS_TOKEN: ${{ secrets.PROJECTS_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/sync_projects.py --update-topics
+
+      - name: Publish only changed directory files
+        run: |
+          set -euo pipefail
+          git add -- README.md data/projects.json
+          if git diff --cached --quiet; then
+            echo 'The profile is already up to date.'
+            exit 0
+          fi
+          git -c user.name='bhargavm-iiits' -c user.email='bhargav.m23@iiits.in' commit -m 'Refresh project directory'
+          git push
