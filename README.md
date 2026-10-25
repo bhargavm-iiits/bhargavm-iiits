@@ -1,5 +1,7 @@
 [![Contribution activity](assets/contributions-2026.png)](https://github.com/bhargavm-iiits#year-list-container)
 
+<p align="center"><sub>Contribution snapshot · GitHub's live contribution calendar below reflects new activity.</sub></p>
+
 <h1 align="center">Projects by Technology</h1>
 
 <h3 align="center">Immersive experiences · AI systems · Full stack applications</h3>
