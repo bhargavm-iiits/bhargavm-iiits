@@ -1,112 +1,17 @@
 {
   "projects": [
     {
-      "name": "VR_Demo_Cymax",
-      "url": "https://github.com/bhargavm-iiits/VR_Demo_Cymax",
-      "category": "vr-xr",
-      "summary": "VR cinema and 360° video",
+      "name": "AI-Plant-Disease-Detection",
+      "url": "https://github.com/bhargavm-iiits/AI-Plant-Disease-Detection",
+      "category": "ml",
+      "summary": "CNN plant-disease detection",
       "stack": [
-        "React",
-        "Three.js",
-        "React Three Fiber/XR",
-        "FastAPI"
-      ]
-    },
-    {
-      "name": "Teaching-and-Learning",
-      "url": "https://github.com/bhargavm-iiits/Teaching-and-Learning",
-      "category": "vr-xr",
-      "summary": "Physics learning",
-      "stack": [
-        "Unity",
-        "C#",
-        "XR Interaction Toolkit",
-        "OpenXR"
-      ]
-    },
-    {
-      "name": "Teaching-and-Learning_V1",
-      "url": "https://github.com/bhargavm-iiits/Teaching-and-Learning_V1",
-      "category": "vr-xr",
-      "summary": "VR kinematics suite",
-      "stack": [
-        "Unity",
-        "C#",
-        "URP",
-        "XR",
-        "OpenXR"
-      ]
-    },
-    {
-      "name": "Interactive-Speed",
-      "url": "https://github.com/bhargavm-iiits/Interactive-Speed",
-      "category": "vr-xr",
-      "summary": "Game-based speed learning with XR dependencies",
-      "stack": [
-        "Unity",
-        "C#",
-        "OpenXR"
-      ]
-    },
-    {
-      "name": "Motion-in-Straight-Line",
-      "url": "https://github.com/bhargavm-iiits/Motion-in-Straight-Line",
-      "category": "vr-xr",
-      "summary": "Interactive motion learning",
-      "stack": [
-        "Unity",
-        "C#",
-        "XR Interaction Toolkit",
-        "OpenXR"
-      ]
-    },
-    {
-      "name": "Industry-AIR_CRAFT",
-      "url": "https://github.com/bhargavm-iiits/Industry-AIR_CRAFT",
-      "category": "vr-xr",
-      "summary": "VR engine assembly training",
-      "stack": [
-        "Unity",
-        "C#",
-        "VRTK",
-        "SteamVR/OpenVR"
-      ]
-    },
-    {
-      "name": "Industry-Air-Craft-V1",
-      "url": "https://github.com/bhargavm-iiits/Industry-Air-Craft-V1",
-      "category": "vr-xr",
-      "summary": "Aviation scene and XR prototype",
-      "stack": [
-        "Unity",
-        "C#",
-        "URP",
-        "XR Interaction Toolkit"
-      ]
-    },
-    {
-      "name": "Interactive-Chemistry",
-      "url": "https://github.com/bhargavm-iiits/Interactive-Chemistry",
-      "category": "vr-xr",
-      "summary": "VR crystallography and XRD laboratory",
-      "stack": [
-        "Unity",
-        "C#",
-        "Meta XR SDK",
-        "OpenXR"
-      ]
-    },
-    {
-      "name": "VR-Plant-Treatment",
-      "url": "https://github.com/bhargavm-iiits/VR-Plant-Treatment",
-      "category": "vr-xr",
-      "summary": "Plant-disease education and treatment visualization",
-      "stack": [
-        "Unity",
-        "C#",
-        "URP",
-        "OpenXR"
-      ]
+        "TensorFlow/Keras",
+        "OpenCV",
+        "Flask"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "0da18154f34ca93973b53399debddf40b12d000129347604835f430c38714212"
     },
     {
       "name": "AR-Navigation",
@@ -119,19 +24,9 @@
         "AR Foundation",
         "ARCore",
         "GPS"
-      ]
-    },
-    {
-      "name": "Navigation-AR-pages",
-      "url": "https://github.com/bhargavm-iiits/Navigation-AR-pages",
-      "category": "ar",
-      "summary": "AR navigation scenes",
-      "stack": [
-        "Unity",
-        "AR Foundation",
-        "ARCore",
-        "URP"
-      ]
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "8ad769bc9f7d9b5ea61a5032a0045e3382204517d69c28996ecd1e6f95499f15"
     },
     {
       "name": "AR-Pages-Tirumala",
@@ -143,7 +38,9 @@
         "C#",
         "AR Foundation",
         "ARCore Extensions"
-      ]
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "27f7555c3aa433a8b311001c45e0c2a0327205a45e5eb63ed7141aaaf9bd44ea"
     },
     {
       "name": "AR_Tirumala",
@@ -152,194 +49,9 @@
       "summary": "AR navigation placeholder",
       "stack": [
         "repository currently empty"
-      ]
-    },
-    {
-      "name": "Unity-Linear-Motion-",
-      "url": "https://github.com/bhargavm-iiits/Unity-Linear-Motion-",
-      "category": "unity",
-      "summary": "Linear motion, acceleration, speed, and velocity",
-      "stack": [
-        "Unity assets",
-        "C#",
-        "animation"
-      ]
-    },
-    {
-      "name": "Velocity---Interactive",
-      "url": "https://github.com/bhargavm-iiits/Velocity---Interactive",
-      "category": "unity",
-      "summary": "Interactive game with checkpoints, compass, and collectibles",
-      "stack": [
-        "Unity",
-        "C#",
-        "terrain"
-      ]
-    },
-    {
-      "name": "AI-Plant-Disease-Detection",
-      "url": "https://github.com/bhargavm-iiits/AI-Plant-Disease-Detection",
-      "category": "ml",
-      "summary": "CNN plant-disease detection",
-      "stack": [
-        "TensorFlow/Keras",
-        "OpenCV",
-        "Flask"
-      ]
-    },
-    {
-      "name": "Hate-Speech-Detection",
-      "url": "https://github.com/bhargavm-iiits/Hate-Speech-Detection",
-      "category": "ml",
-      "summary": "Multimodal content classification",
-      "stack": [
-        "PyTorch",
-        "Transformers",
-        "MiniLM",
-        "CLIP",
-        "LoRA/PEFT"
-      ]
-    },
-    {
-      "name": "OpthaMiss_V1",
-      "url": "https://github.com/bhargavm-iiits/OpthaMiss_V1",
-      "category": "ml",
-      "summary": "AI-assisted eye screening",
-      "stack": [
-        "PyTorch",
-        "timm",
-        "OpenCV",
-        "FastAPI",
-        "React"
-      ]
-    },
-    {
-      "name": "Jarvis",
-      "url": "https://github.com/bhargavm-iiits/Jarvis",
-      "category": "genai",
-      "summary": "AI assistant prototype",
-      "stack": [
-        "Python",
-        "LiveKit Agents",
-        "OpenAI"
-      ]
-    },
-    {
-      "name": "Privacy-Preserving-RAG",
-      "url": "https://github.com/bhargavm-iiits/Privacy-Preserving-RAG",
-      "category": "genai",
-      "summary": "Privacy-focused retrieval experiments",
-      "stack": [
-        "LangChain",
-        "LangGraph",
-        "ChromaDB",
-        "Presidio",
-        "MLflow"
-      ]
-    },
-    {
-      "name": "Vox-Align",
-      "url": "https://github.com/bhargavm-iiits/Vox-Align",
-      "category": "genai",
-      "summary": "Emotion-aware voice assistant",
-      "stack": [
-        "PyTorch",
-        "BERT",
-        "Whisper",
-        "Gemini",
-        "ChromaDB"
-      ]
-    },
-    {
-      "name": "evidra-ai",
-      "url": "https://github.com/bhargavm-iiits/evidra-ai",
-      "category": "genai",
-      "summary": "ClaimBridge document-review prototype",
-      "stack": [
-        "Python",
-        "Streamlit",
-        "Anthropic",
-        "BM25",
-        "PyMuPDF"
-      ]
-    },
-    {
-      "name": "Fixproof",
-      "url": "https://github.com/bhargavm-iiits/Fixproof",
-      "category": "genai",
-      "summary": "AI code repair with verification",
-      "stack": [
-        "Gemini",
-        "BM25",
-        "Docker",
-        "FastAPI",
-        "React"
-      ]
-    },
-    {
-      "name": "Sticker_Me",
-      "url": "https://github.com/bhargavm-iiits/Sticker_Me",
-      "category": "genai",
-      "summary": "Personalized sticker generation",
-      "stack": [
-        "FLUX.2 Klein",
-        "FastAPI",
-        "React",
-        "Pillow",
-        "rembg"
-      ]
-    },
-    {
-      "name": "Scientific_Claim_Checker",
-      "url": "https://github.com/bhargavm-iiits/Scientific_Claim_Checker",
-      "category": "genai",
-      "summary": "Evidence-based claim verification",
-      "stack": [
-        "LangGraph",
-        "Ollama/Qwen",
-        "hybrid retrieval",
-        "PyTorch",
-        "Streamlit"
-      ]
-    },
-    {
-      "name": "Sheduler",
-      "url": "https://github.com/bhargavm-iiits/Sheduler",
-      "category": "fullstack",
-      "summary": "Cadence planning dashboard and Android companion",
-      "stack": [
-        "React",
-        "TypeScript",
-        "Vinext/Vite",
-        "Express",
-        "Capacitor"
-      ]
-    },
-    {
-      "name": "Excel-to-Visualization-App-",
-      "url": "https://github.com/bhargavm-iiits/Excel-to-Visualization-App-",
-      "category": "fullstack",
-      "summary": "Spreadsheet-to-API compiler and 3D dependency explorer",
-      "stack": [
-        "FastAPI",
-        "React",
-        "Three.js",
-        "SQLAlchemy",
-        "Gemini"
-      ]
-    },
-    {
-      "name": "Sri-Balaji-Bamboo-Works",
-      "url": "https://github.com/bhargavm-iiits/Sri-Balaji-Bamboo-Works",
-      "category": "fullstack",
-      "summary": "Bilingual storefront and order management",
-      "stack": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Node.js",
-        "encrypted storage"
-      ]
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "6eed120a0b70241167ab93d2ec329804f31ab8b6efc716c9657e56e0b31c4366"
     },
     {
       "name": "E-Portfolio",
@@ -353,7 +65,137 @@
         "Three.js",
         "React Three Fiber",
         "GSAP"
-      ]
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "2515418ca093b85b63719584c5cb583975ec369be763dd207f7ba61ad2ceee1d"
+    },
+    {
+      "name": "evidra-ai",
+      "url": "https://github.com/bhargavm-iiits/evidra-ai",
+      "category": "genai",
+      "summary": "ClaimBridge document-review prototype",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Anthropic",
+        "BM25",
+        "PyMuPDF"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "c51a0d223893096b36682303be2751b06148437d64b3ac17931ca5e6ce8d0d31"
+    },
+    {
+      "name": "Excel-to-Visualization-App-",
+      "url": "https://github.com/bhargavm-iiits/Excel-to-Visualization-App-",
+      "category": "fullstack",
+      "summary": "Spreadsheet-to-API compiler and 3D dependency explorer",
+      "stack": [
+        "FastAPI",
+        "React",
+        "Three.js",
+        "SQLAlchemy",
+        "Gemini"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "d51f427e4b8642f03fadd2616a2d04f939f41abb6674955a7dce719259813e17"
+    },
+    {
+      "name": "Fixproof",
+      "url": "https://github.com/bhargavm-iiits/Fixproof",
+      "category": "genai",
+      "summary": "AI code repair with verification",
+      "stack": [
+        "Gemini",
+        "BM25",
+        "Docker",
+        "FastAPI",
+        "React"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "f9c3ae29991de6b314c35fcbaa758ba0ca03e1c749fdd0084ba087873592e9bf"
+    },
+    {
+      "name": "Hate-Speech-Detection",
+      "url": "https://github.com/bhargavm-iiits/Hate-Speech-Detection",
+      "category": "ml",
+      "summary": "Multimodal content classification",
+      "stack": [
+        "PyTorch",
+        "Transformers",
+        "MiniLM",
+        "CLIP",
+        "LoRA/PEFT"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "f4400fa9ec59c8bbbd533a7bbe3039c2fd833771b66b44446e9967db1ef39d06"
+    },
+    {
+      "name": "Industry-Air-Craft-V1",
+      "url": "https://github.com/bhargavm-iiits/Industry-Air-Craft-V1",
+      "category": "vr-xr",
+      "summary": "Aviation scene and XR prototype",
+      "stack": [
+        "Unity",
+        "C#",
+        "URP",
+        "XR Interaction Toolkit"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "cc28dc1cbf0abd2f792ec73cdb203a5644d8b5c48e2d84403d517b9dcdf1382b"
+    },
+    {
+      "name": "Industry-AIR_CRAFT",
+      "url": "https://github.com/bhargavm-iiits/Industry-AIR_CRAFT",
+      "category": "vr-xr",
+      "summary": "VR engine assembly training",
+      "stack": [
+        "Unity",
+        "C#",
+        "VRTK",
+        "SteamVR/OpenVR"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "50977b637cdc957e145320e778853059b656a070963e933ad1373f8d4a0ce51e"
+    },
+    {
+      "name": "Interactive-Chemistry",
+      "url": "https://github.com/bhargavm-iiits/Interactive-Chemistry",
+      "category": "vr-xr",
+      "summary": "VR crystallography and XRD laboratory",
+      "stack": [
+        "Unity",
+        "C#",
+        "Meta XR SDK",
+        "OpenXR"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "81ba8e269aef4e759fe06b3d0931d986c1298b53bcdab3b5d8d1872ea6efda33"
+    },
+    {
+      "name": "Interactive-Speed",
+      "url": "https://github.com/bhargavm-iiits/Interactive-Speed",
+      "category": "vr-xr",
+      "summary": "Game-based speed learning with XR dependencies",
+      "stack": [
+        "Unity",
+        "C#",
+        "OpenXR"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "7c407c9481d425d8283080cffec32720910fec7c8daa8051fcd090a157a05284"
+    },
+    {
+      "name": "Jarvis",
+      "url": "https://github.com/bhargavm-iiits/Jarvis",
+      "category": "genai",
+      "summary": "AI assistant prototype",
+      "stack": [
+        "Python",
+        "LiveKit Agents",
+        "OpenAI"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "03d4c028585b5add4b2f448f416be8795508e5871cb770806ce93e6783a7a30b"
     },
     {
       "name": "ML_E-Portfolio",
@@ -365,7 +207,225 @@
         "Three.js",
         "GSAP",
         "Lenis"
-      ]
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "5c6cf28704fa87a70ec1bafb3211bd8937a8fbbc0c1296ac9c7a829efb3d6b5f"
+    },
+    {
+      "name": "Motion-in-Straight-Line",
+      "url": "https://github.com/bhargavm-iiits/Motion-in-Straight-Line",
+      "category": "vr-xr",
+      "summary": "Interactive motion learning",
+      "stack": [
+        "Unity",
+        "C#",
+        "XR Interaction Toolkit",
+        "OpenXR"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "e921afd71bc93e486040964ac2dc06214be5e08def7e7c28ecffdfefc6a2538f"
+    },
+    {
+      "name": "Navigation-AR-pages",
+      "url": "https://github.com/bhargavm-iiits/Navigation-AR-pages",
+      "category": "ar",
+      "summary": "AR navigation scenes",
+      "stack": [
+        "Unity",
+        "AR Foundation",
+        "ARCore",
+        "URP"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "bab3728962cccd484118fef1172eb40b0f19ffd0ab6c8688f48ff97fad0c4724"
+    },
+    {
+      "name": "OpthaMiss_V1",
+      "url": "https://github.com/bhargavm-iiits/OpthaMiss_V1",
+      "category": "ml",
+      "summary": "AI-assisted eye screening",
+      "stack": [
+        "PyTorch",
+        "timm",
+        "OpenCV",
+        "FastAPI",
+        "React"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "7dbaddbf79e54fb2bfc1d38532f5c43fe0118b6f0f10594ed443e72b91cdd88a"
+    },
+    {
+      "name": "Privacy-Preserving-RAG",
+      "url": "https://github.com/bhargavm-iiits/Privacy-Preserving-RAG",
+      "category": "genai",
+      "summary": "Privacy-focused retrieval experiments",
+      "stack": [
+        "LangChain",
+        "LangGraph",
+        "ChromaDB",
+        "Presidio",
+        "MLflow"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "ac874e3fc677177d0112d3d30bc17f0b343deca7810c82266078465fc7f0f97a"
+    },
+    {
+      "name": "Scientific_Claim_Checker",
+      "url": "https://github.com/bhargavm-iiits/Scientific_Claim_Checker",
+      "category": "genai",
+      "summary": "Evidence-based claim verification",
+      "stack": [
+        "LangGraph",
+        "Ollama/Qwen",
+        "hybrid retrieval",
+        "PyTorch",
+        "Streamlit"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "71fce365713234a56ebc280a8b97ef70c5f46e3ccf6dbdfa249cb10578d47c63"
+    },
+    {
+      "name": "Sheduler",
+      "url": "https://github.com/bhargavm-iiits/Sheduler",
+      "category": "fullstack",
+      "summary": "Cadence planning dashboard and Android companion",
+      "stack": [
+        "React",
+        "TypeScript",
+        "Vinext/Vite",
+        "Express",
+        "Capacitor"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "58ccceefea58209fc6490d05450438314ad60482d8e6606f4f00a6d62a9d8699"
+    },
+    {
+      "name": "Sri-Balaji-Bamboo-Works",
+      "url": "https://github.com/bhargavm-iiits/Sri-Balaji-Bamboo-Works",
+      "category": "fullstack",
+      "summary": "Bilingual storefront and order management",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "encrypted storage"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "7e398562baeabfdc0a97c9574814a96bbe3976f36dde1703068c73c9ca8b7488"
+    },
+    {
+      "name": "Sticker_Me",
+      "url": "https://github.com/bhargavm-iiits/Sticker_Me",
+      "category": "genai",
+      "summary": "Personalized sticker generation",
+      "stack": [
+        "FLUX.2 Klein",
+        "FastAPI",
+        "React",
+        "Pillow",
+        "rembg"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "44e55df5ef77cbf46e382efcb827e18e9b813af8e3c5e70f32d44a485b758961"
+    },
+    {
+      "name": "Teaching-and-Learning",
+      "url": "https://github.com/bhargavm-iiits/Teaching-and-Learning",
+      "category": "vr-xr",
+      "summary": "Physics learning",
+      "stack": [
+        "Unity",
+        "C#",
+        "XR Interaction Toolkit",
+        "OpenXR"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "cc4506619cb5222939777a0261641c16abcbe5d0b17fe8d3fbabe9f4a651a704"
+    },
+    {
+      "name": "Teaching-and-Learning_V1",
+      "url": "https://github.com/bhargavm-iiits/Teaching-and-Learning_V1",
+      "category": "vr-xr",
+      "summary": "VR kinematics suite",
+      "stack": [
+        "Unity",
+        "C#",
+        "URP",
+        "XR",
+        "OpenXR"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "259cadeac9f5700613532b2bfbfdaa4e5f21ae3a172d5cc636a36c67c2b6f6e1"
+    },
+    {
+      "name": "Unity-Linear-Motion-",
+      "url": "https://github.com/bhargavm-iiits/Unity-Linear-Motion-",
+      "category": "unity",
+      "summary": "Linear motion, acceleration, speed, and velocity",
+      "stack": [
+        "Unity assets",
+        "C#",
+        "animation"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "a3618dbdf755be718c166ad707c9ef755075e2114ecc9038172a446fb1fa5dd8"
+    },
+    {
+      "name": "Velocity---Interactive",
+      "url": "https://github.com/bhargavm-iiits/Velocity---Interactive",
+      "category": "unity",
+      "summary": "Interactive game with checkpoints, compass, and collectibles",
+      "stack": [
+        "Unity",
+        "C#",
+        "terrain"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "bae2cd5a86d7dd86b4613669f7c011b9f2e813ec8543a1726567d537d763bc08"
+    },
+    {
+      "name": "Vox-Align",
+      "url": "https://github.com/bhargavm-iiits/Vox-Align",
+      "category": "genai",
+      "summary": "Emotion-aware voice assistant",
+      "stack": [
+        "PyTorch",
+        "BERT",
+        "Whisper",
+        "Gemini",
+        "ChromaDB"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "9b4e88fb2f38d33555533aaba9ab409f09e774d7ff41ca295f6d2952dc36b228"
+    },
+    {
+      "name": "VR-Plant-Treatment",
+      "url": "https://github.com/bhargavm-iiits/VR-Plant-Treatment",
+      "category": "vr-xr",
+      "summary": "Plant-disease education and treatment visualization",
+      "stack": [
+        "Unity",
+        "C#",
+        "URP",
+        "OpenXR"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "8191fde1fc5a7410417a10f889d13d4d72cd17671f8b9768b72a33d0bf82092a"
+    },
+    {
+      "name": "VR_Demo_Cymax",
+      "url": "https://github.com/bhargavm-iiits/VR_Demo_Cymax",
+      "category": "vr-xr",
+      "summary": "VR cinema and 360° video",
+      "stack": [
+        "React",
+        "Three.js",
+        "React Three Fiber/XR",
+        "FastAPI"
+      ],
+      "evidence": "curated project classification",
+      "fingerprint": "579b5d8dbb0abbe4cb7d7f8e333d6dba5553dc16428481f0a658ed9ec36c86be"
     }
   ]
 }

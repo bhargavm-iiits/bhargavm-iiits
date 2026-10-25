@@ -15,7 +15,10 @@ END = "<!-- PROJECT-DIRECTORY:END -->"
 
 def safe_text(value: str) -> str:
     value = re.sub(r"\s+", " ", str(value)).strip()
-    return html.escape(value, quote=True)
+    value = html.escape(value, quote=True)
+    for character in "[]`!*\\|":
+        value = value.replace(character, f"&#{ord(character)};")
+    return value
 
 
 def heading_anchor(value: str) -> str:
