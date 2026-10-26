@@ -1,23 +1,30 @@
-"""Refresh a text contribution summary from GitHub, without static graph images."""
+"""Refresh the profile's green daily contribution grid from GitHub's calendar data."""
 from __future__ import annotations
 
 from datetime import datetime, timedelta, timezone
 import json
 import os
+import hashlib
 
 from render_profile import ROOT
+from render_calendar import render_calendar
 from sync_projects import GitHub
 
 START = "<!-- CONTRIBUTIONS:START -->"
 END = "<!-- CONTRIBUTIONS:END -->"
 QUERY = """query($login:String!){user(login:$login){contributionsCollection{
-  contributionCalendar{totalContributions}
+  contributionCalendar{totalContributions weeks{contributionDays{date contributionCount weekday contributionLevel}}}
 }}}"""
 
 
-def text_block(owner: str, total: int, checked: str) -> str:
+def text_block(owner: str, total: int, checked: str, version: str = "") -> str:
+    asset_root = f"https://raw.githubusercontent.com/{owner}/{owner}/main/assets"
+    suffix = f"?v={version}" if version else ""
     return "\n".join([
-        START, "", f"## {total:,} contributions in the last year", "",
+        START, "", "<picture>",
+        f'  <source media="(prefers-color-scheme: dark)" srcset="{asset_root}/contributions-dark.svg{suffix}">',
+        f'  <img alt="Daily GitHub contributions: {total:,} contributions in the last year" src="{asset_root}/contributions-light.svg{suffix}" width="100%">',
+        "</picture>", "",
         f"[View GitHub's live contribution graph](https://github.com/{owner}#js-contribution-activity-description)", "",
         f"<sub>GitHub contribution data checked {checked}. Refreshed by the hourly workflow.</sub>", "", END,
     ])
@@ -65,19 +72,29 @@ def main() -> None:
     response = api.request("/graphql", "POST", {"query": QUERY, "variables": {"login": owner}})
     if response.get("errors"):
         raise RuntimeError("GitHub could not provide the public contribution total")
-    total = response["data"]["user"]["contributionsCollection"]["contributionCalendar"]["totalContributions"]
+    calendar = response["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+    total = calendar["totalContributions"]
     now = datetime.now(timezone.utc)
     automated_commits = count_automation_commits(api, owner, now)
     path = ROOT / "data/contributions.json"
     previous = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
-    if not needs_refresh(previous, total, automated_commits):
-        print("Contribution summary already reflects the latest non-automation activity")
+    window_end = max(day["date"] for week in calendar["weeks"] for day in week["contributionDays"])
+    assets = ROOT / "assets"
+    graph_missing = any(not (assets / f"contributions-{theme}.svg").exists() for theme in ("light", "dark"))
+    if (previous.get("calendar_version") == 1 and previous.get("window_end") == window_end
+            and not graph_missing and not needs_refresh(previous, total, automated_commits)):
+        print("Contribution calendar already reflects the latest non-automation activity")
         return
     checked = now.astimezone(timezone(timedelta(hours=5, minutes=30))).strftime("%d %b %Y, %H:%M IST")
     readme = ROOT / "README.md"
-    content = replace_block(readme.read_text(encoding="utf-8"), text_block(owner, total, checked))
+    version = hashlib.sha256(json.dumps(calendar, sort_keys=True).encode()).hexdigest()[:12]
+    content = replace_block(readme.read_text(encoding="utf-8"), text_block(owner, total, checked, version))
+    assets.mkdir(exist_ok=True)
+    for theme in ("light", "dark"):
+        (assets / f"contributions-{theme}.svg").write_text(render_calendar(calendar, owner, theme), encoding="utf-8", newline="\n")
     readme.write_text(content, encoding="utf-8", newline="\n")
-    state = {"total": total, "real_activity": total - automated_commits, "checked": checked}
+    state = {"total": total, "real_activity": total - automated_commits, "checked": checked,
+             "calendar_version": 1, "window_end": window_end, "calendar": calendar}
     path.write_text(json.dumps(state, indent=2) + "\n", encoding="utf-8", newline="\n")
     print(f"GitHub contribution total: {total}")
 

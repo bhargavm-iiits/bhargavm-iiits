@@ -7,12 +7,13 @@ from refresh_contributions import START, END, needs_refresh, replace_block, text
 
 
 class ContributionSummaryTests(unittest.TestCase):
-    def test_total_is_text_with_a_link_to_the_native_graph(self):
+    def test_calendar_uses_generated_svg_and_links_to_the_native_graph(self):
         block = text_block("bhargavm-iiits", 566, "26 Oct 2026, 20:30 IST")
-        self.assertIn("## 566 contributions in the last year", block)
+        self.assertIn("566 contributions in the last year", block)
         self.assertIn("#js-contribution-activity-description", block)
-        self.assertNotIn("![", block)
-        self.assertNotIn("<img", block)
+        self.assertIn("contributions-light.svg", block)
+        self.assertIn("contributions-dark.svg", block)
+        self.assertNotIn(".png", block)
 
     def test_initial_summary_is_created(self):
         self.assertTrue(needs_refresh({}, 566, 0))

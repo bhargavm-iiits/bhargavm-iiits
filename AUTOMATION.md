@@ -8,7 +8,7 @@
 - New projects are classified from their existing topics, description, README, project structure, and dependency manifests.
 - The category topic is added while preserving existing topics. It makes the new project appear in the matching repository filter.
 - The public profile directory and category counts are regenerated. A commit is created only when the saved directory data changes.
-- The text contribution total at the top is refreshed from GitHub. The checked time is shown, and automation-only contribution changes are ignored to avoid an endless commit loop.
+- The daily green contribution grid at the top is generated from GitHub's real calendar data in light and dark themes. The checked time is shown, and automation-only contribution changes are ignored to avoid an endless commit loop.
 - Existing curated classifications and descriptions are retained through `profile.json` overrides.
 - Private repositories are never listed or published. The profile repository itself is excluded.
 - Code from other repositories is never executed. Only bounded text files are inspected.
@@ -50,6 +50,6 @@ python scripts/render_profile.py
 
 ## Calendar and commit identity
 
-The top of the profile contains an ordinary text heading with GitHub's contribution total and its checked time. It is updated by the hourly workflow when new non-automation activity is available. It is not a screenshot or an embedded image. The native interactive contribution graph remains in GitHub's own fixed section; the heading includes a link to it. GitHub calculates that graph and may take time to reflect new commits.
+The top of the profile contains a generated SVG calendar of daily contributions, using the exact dates, counts, and contribution levels returned by GitHub. It is updated by the hourly workflow when new non-automation activity is available or the date window advances. It is not the old uploaded screenshot. Light and dark themes are generated from the same data. The native interactive contribution graph remains in GitHub's own fixed section; the calendar includes a link to it. GitHub calculates contribution data and may take time to reflect new commits. Opening the profile shows the latest committed calendar; it does not run code in the visitor's browser.
 
 Profile changes and automatic directory commits use `bhargav.m23@iiits.in`. The five initial enhancement commits were assigned the requested author and committer dates: two on October 24, 2026, and three on October 25, 2026, using the Asia/Kolkata UTC+05:30 offset.

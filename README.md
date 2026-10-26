@@ -1,10 +1,13 @@
 <!-- CONTRIBUTIONS:START -->
 
-## 566 contributions in the last year
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bhargavm-iiits/bhargavm-iiits/main/assets/contributions-dark.svg?v=8b4d75f55a57">
+  <img alt="Daily GitHub contributions: 568 contributions in the last year" src="https://raw.githubusercontent.com/bhargavm-iiits/bhargavm-iiits/main/assets/contributions-light.svg?v=8b4d75f55a57" width="100%">
+</picture>
 
 [View GitHub's live contribution graph](https://github.com/bhargavm-iiits#js-contribution-activity-description)
 
-<sub>GitHub contribution data checked 26 Oct 2026, 20:31 IST. Refreshed by the hourly workflow.</sub>
+<sub>GitHub contribution data checked 26 Oct 2026, 23:44 IST. Refreshed by the hourly workflow.</sub>
 
 <!-- CONTRIBUTIONS:END -->
 
