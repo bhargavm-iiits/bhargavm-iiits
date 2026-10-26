@@ -31,7 +31,7 @@ def directory(config: dict, projects: list[dict]) -> str:
     groups = [(category, [p for p in projects if p["category"] == category["id"]])
               for category in config["categories"]]
     groups = [(category, items) for category, items in groups if items]
-    out = [START, "", "## Explore a technology", "",
+    out = [START, "", "### Explore a technology", "",
            "Choose a section below, or open its matching filter in the **Repositories** tab.", "",
            "| Technology | Projects | Filter repositories |", "| --- | ---: | --- |"]
     for category, items in groups:
@@ -43,14 +43,14 @@ def directory(config: dict, projects: list[dict]) -> str:
         title = category["title"]
         filter_url = f"https://github.com/{owner}?tab=repositories&q={quote('topic:' + category['topic'], safe='')}"
         out += ["", "---", "", f'<a id="{heading_anchor(title)}"></a>', "",
-                f"## {category['icon']} {safe_text(title)}", "",
+                f"### {category['icon']} {safe_text(title)}", "",
                 f"**{len(items)} projects** · [View this category in Repositories →]({filter_url})", ""]
         for project in sorted(items, key=lambda p: p["name"].casefold()):
             name = project["name"]
             url = f"https://github.com/{owner}/{quote(name, safe='-._')}"
-            out += [f"### [{safe_text(name)}]({url})", "", safe_text(project["summary"]), ""]
+            out += [f"#### [{safe_text(name)}]({url})", "", safe_text(project["summary"]), ""]
             if project.get("stack"):
-                out += ["**Built with:** " + " · ".join(f"**{safe_text(tool)}**" for tool in project["stack"]), ""]
+                out += ["**Built with:** " + " · ".join(safe_text(tool) for tool in project["stack"]), ""]
     out += ["---", "", "<sub>New public repositories are checked hourly and grouped by their technology. "
             "Unclear projects appear under Other Projects until their category is refined.</sub>", "", END]
     return "\n".join(out)
