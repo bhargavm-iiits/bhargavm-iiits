@@ -78,7 +78,7 @@ class RenderingTests(unittest.TestCase):
     def test_all_project_links_and_filters_are_rendered(self):
         output = directory(self.config, self.projects)
         for project in self.projects:
-            self.assertIn(f"#### [{project['name']}]", output)
+            self.assertIn(f"### [{project['name']}]", output)
         for category in self.config["categories"]:
             if any(p["category"] == category["id"] for p in self.projects):
                 self.assertIn("topic%3A" + category["topic"], output)

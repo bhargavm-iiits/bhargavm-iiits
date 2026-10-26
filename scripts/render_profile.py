@@ -22,7 +22,7 @@ def safe_text(value: str) -> str:
 
 
 def heading_anchor(value: str) -> str:
-    # Headings deliberately use a stable ASCII label; icons are outside the anchor.
+    # Stable ASCII anchors keep category links working as the directory is regenerated.
     return re.sub(r"[^a-z0-9 -]", "", value.lower()).replace(" ", "-")
 
 
@@ -31,24 +31,24 @@ def directory(config: dict, projects: list[dict]) -> str:
     groups = [(category, [p for p in projects if p["category"] == category["id"]])
               for category in config["categories"]]
     groups = [(category, items) for category, items in groups if items]
-    out = [START, "", "### Explore a technology", "",
+    out = [START, "", "## Explore a technology", "",
            "Choose a section below, or open its matching filter in the **Repositories** tab.", "",
            "| Technology | Projects | Filter repositories |", "| --- | ---: | --- |"]
     for category, items in groups:
         title = category["title"]
         topic = category["topic"]
         filter_url = f"https://github.com/{owner}?tab=repositories&q={quote('topic:' + topic, safe='')}"
-        out.append(f"| **[{safe_text(title)}](#{heading_anchor(title)})** | **{len(items)}** | [Browse projects →]({filter_url}) |")
+        out.append(f"| **[{safe_text(title)}](#{heading_anchor(title)})** | **{len(items)}** | [Browse projects]({filter_url}) |")
     for category, items in groups:
         title = category["title"]
         filter_url = f"https://github.com/{owner}?tab=repositories&q={quote('topic:' + category['topic'], safe='')}"
         out += ["", "---", "", f'<a id="{heading_anchor(title)}"></a>', "",
-                f"### {category['icon']} {safe_text(title)}", "",
-                f"**{len(items)} projects** · [View this category in Repositories →]({filter_url})", ""]
+                f"# {safe_text(title)}", "",
+                f"**{len(items)} projects** · [View this category in Repositories]({filter_url})", ""]
         for project in sorted(items, key=lambda p: p["name"].casefold()):
             name = project["name"]
             url = f"https://github.com/{owner}/{quote(name, safe='-._')}"
-            out += [f"#### [{safe_text(name)}]({url})", "", safe_text(project["summary"]), ""]
+            out += [f"### [{safe_text(name)}]({url})", "", safe_text(project["summary"]), ""]
             if project.get("stack"):
                 out += ["**Built with:** " + " · ".join(safe_text(tool) for tool in project["stack"]), ""]
     out += ["---", "", "<sub>New public repositories are checked hourly and grouped by their technology. "

@@ -8,49 +8,41 @@
     {
       "id": "vr-xr",
       "title": "Virtual Reality / XR",
-      "icon": "🥽",
       "topic": "virtual-reality"
     },
     {
       "id": "ar",
       "title": "Augmented Reality",
-      "icon": "📍",
       "topic": "augmented-reality"
     },
     {
       "id": "unity",
       "title": "Unity Games / Simulations",
-      "icon": "🎮",
       "topic": "unity-simulation"
     },
     {
       "id": "ml",
       "title": "Machine Learning / Deep Learning",
-      "icon": "🧠",
       "topic": "machine-learning"
     },
     {
       "id": "genai",
       "title": "Generative AI / LLMs / RAG",
-      "icon": "✨",
       "topic": "generative-ai"
     },
     {
       "id": "fullstack",
       "title": "Full Stack Applications / Tools",
-      "icon": "🌐",
       "topic": "full-stack"
     },
     {
       "id": "portfolio",
       "title": "Frontend / 3D Portfolios",
-      "icon": "🎨",
       "topic": "portfolio"
     },
     {
       "id": "other",
       "title": "Other Projects",
-      "icon": "📦",
       "topic": "other-projects"
     }
   ],
