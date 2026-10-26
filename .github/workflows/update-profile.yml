@@ -31,6 +31,11 @@ jobs:
       - name: Test classifier and renderer
         run: python3 -m unittest discover -s tests -v
 
+      - name: Refresh text contribution summary
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/refresh_contributions.py
+
       - name: Classify repositories, preserve topics, and render directory
         env:
           PROJECTS_TOKEN: ${{ secrets.PROJECTS_TOKEN }}
@@ -40,7 +45,7 @@ jobs:
       - name: Publish only changed directory files
         run: |
           set -euo pipefail
-          git add -- README.md data/projects.json
+          git add -- README.md data/projects.json data/contributions.json
           if git diff --cached --quiet; then
             echo 'The profile is already up to date.'
             exit 0

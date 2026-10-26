@@ -1,6 +1,12 @@
-[![Contribution activity](assets/contributions-2026.png)](https://github.com/bhargavm-iiits#year-list-container)
+<!-- CONTRIBUTIONS:START -->
 
-<p align="center"><sub>Contribution snapshot · GitHub's live contribution calendar below reflects new activity.</sub></p>
+## 566 contributions in the last year
+
+[View GitHub's live contribution graph](https://github.com/bhargavm-iiits#js-contribution-activity-description)
+
+<sub>GitHub contribution data checked 26 Oct 2026, 20:31 IST. Refreshed by the hourly workflow.</sub>
+
+<!-- CONTRIBUTIONS:END -->
 
 <h1 align="center">Projects by Technology</h1>
 
