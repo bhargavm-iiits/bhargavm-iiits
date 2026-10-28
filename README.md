@@ -1,13 +1,13 @@
 <!-- CONTRIBUTIONS:START -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bhargavm-iiits/bhargavm-iiits/main/assets/contributions-dark.svg?v=bb558ec87f09">
-  <img alt="Daily GitHub contributions: 570 contributions in the last year" src="https://raw.githubusercontent.com/bhargavm-iiits/bhargavm-iiits/main/assets/contributions-light.svg?v=bb558ec87f09" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bhargavm-iiits/bhargavm-iiits/main/assets/contributions-dark.svg?v=eabf1eb97c94">
+  <img alt="Daily GitHub contributions: 571 contributions in the last year" src="https://raw.githubusercontent.com/bhargavm-iiits/bhargavm-iiits/main/assets/contributions-light.svg?v=eabf1eb97c94" width="100%">
 </picture>
 
 [View GitHub's live contribution graph](https://github.com/bhargavm-iiits#js-contribution-activity-description)
 
-<sub>GitHub contribution data checked 27 Oct 2026, 05:55 IST. Refreshed by the hourly workflow.</sub>
+<sub>GitHub contribution data checked 28 Oct 2026, 07:44 IST. Refreshed by the hourly workflow.</sub>
 
 <!-- CONTRIBUTIONS:END -->
 
